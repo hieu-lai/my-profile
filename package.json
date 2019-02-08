@@ -1,0 +1,15 @@
+{
+  "name": "react-app-node-backend-heroku-ready",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd server && yarn dev",
+    "install-all": "cd client && yarn install && cd ../server && yarn install",
+    "upgrade-all": "cd client && yarn upgrade-all && cd ../server && yarn upgrade-all",
+    "postinstall": "cd server && yarn install",
+    "start": "cd server && yarn start",
+    "heroku-postbuild": "cd server && yarn heroku-postbuild"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/hieu-lai/create-react-node-api-heroku-ready.git",
+  "license": "MIT"
+}
