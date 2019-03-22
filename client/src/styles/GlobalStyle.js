@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: ${props => props.theme.textFont};
     -webkit-font-smoothing: antialiased;
   }
 `
