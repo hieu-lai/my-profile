@@ -10,7 +10,7 @@ export const Container = styled.div`
 `
 
 export const Link = styled.h3`
-  color: ${props => props.theme.primaryColor};
+  color: #fff;
   font-family: ${props => props.theme.headingFont};
   font-size: 1.7rem;
   font-weight: 400;
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 `
 
 export const SocialLink = styled.a`
-  border: 1px solid ${props => props.theme.blue};
+  border: 1px solid #fff;
   border-radius: 50%;
   display: inline-flex;
   ${props => props.margin && 'margin: 0 0 0 1rem'};
@@ -38,7 +38,7 @@ export const SocialLink = styled.a`
 `
 
 const IconStyle = css`
-  fill: ${props => props.theme.blue};
+  fill: #fff;
   height: 2.5rem;
   width: 2.5rem;
 

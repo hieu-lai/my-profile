@@ -10,7 +10,7 @@ export const Image = styled.img`
 `
 
 export const Text = styled.h1`
-  color: ${props => props.theme.primaryColor};
+  color: #fff;
   font-family: ${props => props.theme.headingFont};
   font-size: 3rem;
   font-weight: 800;
