@@ -10,8 +10,8 @@ const Landing = () => (
         <Content>
           <Title>Hi there, I'm Hieu!</Title>
           <Text>
-            A Front End Developer with a passion for building <span>simple</span>,
-            <span> beautiful</span> and <span>clean</span> UI and UX.
+            A Front End Developer with a passion for building <span>beautiful</span>,
+            <span> simple</span> and <span>clean</span> UI and UX.
           </Text>
           <Button>Let's work together!</Button>
         </Content>
