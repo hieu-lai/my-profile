@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, ProblemSolverIcon, Title, Subtitle } from './Shared.sc';
+import { Container, ProblemSolverIcon } from './Shared.sc'
+import { Title, Subtitle } from '../../styles/Texts.sc'
 
 const Item = ({ title, subtitle, icon }) => (
   <Container>

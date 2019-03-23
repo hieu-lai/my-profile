@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContentContainer } from '../../styles/Containers.sc'
 import { Container, Grid } from './About.sc'
-import { Title, Subtitle } from './Shared.sc'
+import { Title, Subtitle } from '../../styles/Texts.sc'
 import aboutData from '../../data/About'
 import Item from './Item'
 
