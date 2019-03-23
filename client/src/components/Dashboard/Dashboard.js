@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import Landing from '../Landing/Landing'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
+import Banner from '../Banner/Banner';
 
 const Dashboard = () => (
   <>
@@ -10,6 +11,7 @@ const Dashboard = () => (
     <Landing />
     <About />
     <Projects />
+    <Banner />
   </>
 )
 
