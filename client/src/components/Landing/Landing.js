@@ -13,7 +13,7 @@ const Landing = () => (
             A Front End Developer with a passion for building <span>beautiful</span>,
             <span> simple</span> and <span>clean</span> UI and UX.
           </Text>
-          <Button>Let's work together!</Button>
+          <Button>Lets work together!</Button>
         </Content>
         <Content alignRight>
           <Image />
