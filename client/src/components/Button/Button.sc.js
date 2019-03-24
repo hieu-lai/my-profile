@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Button = styled.div`
   background: ${props => props.theme.pink};
+  box-shadow: -2px 3px 1px 1px #b130b9;
   border-radius: 50rem;
   color: #fff;
   cursor: pointer;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContentContainer } from '../../styles/Containers.sc'
 import { Title, Subtitle } from '../../styles/Texts.sc'
-import { ContactUs, OnThePhone } from './YourMove.sc';
+import { ContactUs, OnThePhone, ModButton } from './YourMove.sc';
 
 const YourMove = () => (
   <ContentContainer padding relative>
@@ -11,6 +11,7 @@ const YourMove = () => (
       Sign up and become one of the millions of people around the 
       world using Trello to get more done.
     </Subtitle>
+    <ModButton>Hire me!</ModButton>
     <OnThePhone />
   </ContentContainer>
 )
