@@ -33,7 +33,7 @@ export const SocialLink = styled.a`
 
   &:hover {
     transform: scale(.97);
-    border-color: ${props => props.theme.darkBlue}
+    /* border-color: ${props => props.theme.darkBlue} */
   }
 `
 
@@ -43,7 +43,7 @@ const IconStyle = css`
   width: 2.5rem;
 
   ${SocialLink}:hover & {
-    fill: ${props => props.theme.darkBlue};
+    /* fill: ${props => props.theme.darkBlue}; */
   }
 `
 

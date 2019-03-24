@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import LaptopIcon from '../../icons/Laptop'
 
 export const Container = styled.div`
   align-items: center;
@@ -15,4 +16,10 @@ export const Text = styled.h1`
   font-size: 3rem;
   font-weight: 800;
   margin: 0 0 0 1rem;
+`
+
+export const Laptop = styled(LaptopIcon)`
+  fill: #fff;
+  height: 4rem;
+  width: 4rem;
 `

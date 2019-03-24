@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Image, Text } from './Brand.sc';
+import { Container, Text, Laptop } from './Brand.sc';
 
 const Brand = () => (
   <Container>
-    <Image src="/logo.png" />
+    <Laptop />
     <Text>Hieu Lai</Text>
   </Container>
 )
