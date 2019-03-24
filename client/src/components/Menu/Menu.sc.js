@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 33rem;
+  width: 40rem;
 `
 
 export const Link = styled.h3`
@@ -19,15 +19,21 @@ export const Link = styled.h3`
 `
 
 export const Wrapper = styled.div`
-
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 4.5rem 1rem 4.5rem auto;
+  grid-column-gap: 1rem 0rem;
 `
 
 export const SocialLink = styled.a`
+  align-items: center;
   border: 1px solid #fff;
   border-radius: 50%;
-  display: inline-flex;
-  ${props => props.margin && 'margin: 0 0 0 1rem'};
-  place-content: center;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  /* ${props => props.margin && 'margin: 0 0 0 1rem'}; */
+  /* place-content: center; */
   padding: .7rem;
   transition: all .3s;
 

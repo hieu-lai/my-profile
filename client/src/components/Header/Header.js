@@ -30,11 +30,15 @@ const Header = () => {
       <ContentContainer>
         <Wrapper>
           <Brand />
-          <Menu />
+          <MemoComponent />
         </Wrapper>
       </ContentContainer>
     </Container>
   )
 }
+
+const MemoComponent = React.memo(() => (
+  <Menu />
+))
 
 export default Header
