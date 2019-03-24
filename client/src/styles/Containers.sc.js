@@ -5,4 +5,5 @@ export const ContentContainer = styled.div`
   ${props => props.padding && `
     padding: 5rem 15rem;
   `}
+  ${props => props.relative && 'position: relative'};
 `

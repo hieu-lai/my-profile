@@ -15,4 +15,5 @@ export const Subtitle = styled.p`
   margin: 0 auto;
   text-align: center;
   ${props => !props.small && 'width: 70rem'};
+  ${props => props.smallWidth && 'width: 56rem'};
 `

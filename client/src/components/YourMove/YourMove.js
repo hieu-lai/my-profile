@@ -1,10 +1,17 @@
 import React from 'react'
 import { ContentContainer } from '../../styles/Containers.sc'
-import { Title } from '../../styles/Texts.sc';
+import { Title, Subtitle } from '../../styles/Texts.sc'
+import { ContactUs, OnThePhone } from './YourMove.sc';
 
 const YourMove = () => (
-  <ContentContainer padding>
-    <Title>Still not convinced?</Title>
+  <ContentContainer padding relative>
+    <ContactUs />
+    <Title>Contact me today</Title>
+    <Subtitle smallWidth>
+      Sign up and become one of the millions of people around the 
+      world using Trello to get more done.
+    </Subtitle>
+    <OnThePhone />
   </ContentContainer>
 )
 

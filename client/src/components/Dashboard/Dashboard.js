@@ -5,6 +5,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Banner from '../Banner/Banner';
 import YourMove from '../YourMove/YourMove';
+import Footer from '../Footer/Footer';
 
 const Dashboard = () => (
   <>
@@ -14,6 +15,7 @@ const Dashboard = () => (
     <Projects />
     <Banner />
     <YourMove />
+    <Footer />
   </>
 )
 
