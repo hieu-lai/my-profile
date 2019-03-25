@@ -1,19 +1,20 @@
-import React, { useState, useRef } from 'react'
+import React, { useRef, useContext } from 'react'
 import Lottie from 'react-lottie'
 import * as animationData from '../../lottie/switch.json'
 import { LottieWrapper, Clickable } from './Shared.sc.js'
+import { SiteContext } from '../MyProvider/SiteProvider.js';
 
 const Switch = () => {
-  const [isNightMode, setIsNightMode] = useState(false)
+  const { isDarkMode, setState } = useContext(SiteContext)
   const lottieRef = useRef(null)
 
   const onClick = () => {
-    if (isNightMode) {
+    if (isDarkMode) {
       lottieRef.current.anim.playSegments([48, 96], true)
-      setIsNightMode(false)
+      setState({ isDarkMode: false })
     } else {
       lottieRef.current.anim.playSegments([0, 48], true)
-      setIsNightMode(true)
+      setState({ isDarkMode: true })
     }
   }
 
