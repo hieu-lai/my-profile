@@ -30,7 +30,7 @@ const Switch = () => {
   const callback = (e) => {
     // console.log(e)
     if (e.currentTime >= 0 && e.currentTime <= 47) {
-      if (e.currentTime > 25 && e.currentTime < 26) {
+      if (e.currentTime > 15 && e.currentTime < 16) {
         setState({ isDarkMode: true })
       }
       if (e.currentTime > 46 && e.currentTime < 47) {
@@ -38,7 +38,7 @@ const Switch = () => {
         lottieRef.current.anim.pause()
       }
     } else {
-      if (e.currentTime > 75 && e.currentTime < 76) {
+      if (e.currentTime > 65 && e.currentTime < 66) {
         setState({ isDarkMode: false })
       }
       if (e.currentTime > 94 && e.currentTime < 95) {

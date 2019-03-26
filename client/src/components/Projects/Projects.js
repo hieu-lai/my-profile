@@ -10,7 +10,7 @@ const Projects = () => (
     <Subtitle>
       From chrome extensions to web apps to websites, I've worked on it all.
     </Subtitle>
-    {projects.map((project, index) => <Item key={index} {...project} />)}
+    {projects.map((project, index) => <Item key={index} index={index} {...project} />)}
   </ContentContainer>
 )
 

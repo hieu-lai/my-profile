@@ -5,6 +5,7 @@ export const Container = styled.div`
   position: fixed;
   width: 100%;
   transition: all 1s;
+  z-index: 1;
 
   ${props => !props.isTop && `
     background: ${props.theme.headerBackground};
