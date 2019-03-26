@@ -7,7 +7,7 @@ const AppRouter = () => (
   <BrowserRouter>
     <React.Fragment>
       <Switch>
-        <Route path="/" component={Dashboard} exact={true} />
+        <Route path="/" component={Dashboard} />
         <Route component={NotFoundPage} />
       </Switch>
     </React.Fragment>

@@ -4,17 +4,21 @@ import { ThemeProvider } from 'styled-components'
 import registerServiceWorker from './registerServiceWorker'
 import App from './router/AppRouter'
 import GlobalStyle from './styles/GlobalStyle'
-import theme from './styles/Theme'
-import SiteProvider from './components/MyProvider/SiteProvider';
+import { lightTheme, darkTheme } from './styles/Themes'
+import SiteProvider, { SiteContext } from './components/MyProvider/SiteProvider';
 
 const jsx = (
   <SiteProvider>
-    <ThemeProvider theme={theme}>
-      <>
-        <App />
-        <GlobalStyle />
-      </>
-    </ThemeProvider>
+    <SiteContext.Consumer>
+      {({ isDarkMode }) => (
+        <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+          <>
+            <App />
+            <GlobalStyle /> 
+          </>
+        </ThemeProvider>
+      )}
+    </SiteContext.Consumer>
   </SiteProvider>
 )
 

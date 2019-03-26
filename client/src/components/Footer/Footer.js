@@ -4,7 +4,7 @@ import { Text } from './Footer.sc';
 
 const Footer = () => (
   <ContentContainer>
-    <Text>Made with <span role="img" aria-label="Heart">💖</span> © 2019</Text>
+    <Text>Built with <span role="img" aria-label="Heart">💖</span> by Hieu © 2019</Text>
   </ContentContainer>
 )
 

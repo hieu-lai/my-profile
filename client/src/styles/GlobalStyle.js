@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    background: ${props => props.theme.background};
     font-family: ${props => props.theme.textFont};
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;

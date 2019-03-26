@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Button } from '../Button/Button.sc'
 
 export const Container = styled.div`
-  background: linear-gradient(180deg, #42548E 0%, #6B668C 100%);
+  background: ${props => props.theme.bannerBackground};
   border-radius: 1.2rem;
   display: flex;
   flex-direction: column;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import OnTheOffice from '../../icons/OnTheOffice'
 
 export const Container = styled.div`
-  background: linear-gradient(45deg, #2f76f7, #2f5af7);
+  background: ${props => props.theme.landingBackground};
   height: 85vh;
   padding: 8.1rem 0 0 0;
 `
