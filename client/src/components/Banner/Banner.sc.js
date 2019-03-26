@@ -31,7 +31,7 @@ export const Companies = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto 2rem auto;
-  width: 60%;
+  width: 80%;
 `
 
 export const Image = styled.img`

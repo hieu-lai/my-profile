@@ -20,10 +20,6 @@ const SiteProvider = ({ children }) => {
     setState
   }), [state.isDarkMode])
 
-  const test = () => {
-    console.log(test)
-  }
-
 
   useEffect(() => {
     try {

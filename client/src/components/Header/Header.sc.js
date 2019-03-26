@@ -7,7 +7,7 @@ export const Container = styled.div`
   transition: all 1s;
 
   ${props => !props.isTop && `
-    background: #2f5af7;
+    background: ${props.theme.headerBackground};
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     padding: 1rem 0;
   `};
