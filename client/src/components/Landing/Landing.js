@@ -4,7 +4,7 @@ import { ContentContainer } from '../../styles/Containers.sc'
 import { Button } from '../Button/Button.sc';
 
 const Landing = () => (
-  <Container>
+  <Container name="landing">
     <ContentContainer>
       <Grid>
         <Content>

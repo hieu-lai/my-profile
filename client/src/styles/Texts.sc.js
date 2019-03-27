@@ -11,7 +11,7 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.p`
   color: ${props => props.theme.secondaryColor};
-  font-size: ${props => props.small ? '1.4rem' : '1.8rem'};
+  font-size: ${props => props.small ? '1.5rem' : '1.8rem'};
   margin: 0 auto;
   text-align: center;
   ${props => !props.small && 'width: 70rem'};

@@ -5,18 +5,17 @@ import { Title, Subtitle } from '../../styles/Texts.sc'
 import aboutData from '../../data/About'
 import Item from './Item'
 
-
 const About = () => (
   <ContentContainer padding>
     <Container>
       <Title>Hieuge benefits to modern teams</Title>
       <Subtitle>
-        Dynamic and adaptable, I fit into any team's style. 
+        I'm organised and resourceful yet flexible and fun. 
         I'm up for any challenges, except ones that include heights, 
         I will nope right out of there.
       </Subtitle>
       <Grid>
-        {aboutData.map((item, index) => <Item key={index} {...item} />)}
+        {aboutData.map((item, index) => <Item key={index} index={index} {...item} />)}
       </Grid>
     </Container>
   </ContentContainer>

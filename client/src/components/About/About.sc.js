@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding: 0 10rem;
+  /* padding: 0 5rem; */
 `
 
 export const Grid = styled.div`

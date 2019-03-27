@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 import GithubIcon from '../../icons/Github'
 import Linked from '../../icons/LinkedIn'
 
+
 export const Container = styled.div`
   align-items: center;
   display: flex;
@@ -11,10 +12,12 @@ export const Container = styled.div`
 
 export const Link = styled.h3`
   color: #fff;
+  cursor: pointer;
   font-family: ${props => props.theme.headingFont};
   font-size: 1.7rem;
   font-weight: 400;
   margin: 0;
+  text-decoration: none;
   text-transform: uppercase;
 `
 

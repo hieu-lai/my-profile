@@ -1,11 +1,15 @@
 import React from 'react'
-import { Container, Link, Github, LinkedIn, SocialLink, Wrapper } from './Menu.sc'
+import { Link } from 'react-scroll'
+import { Container, Link as Text, Github, LinkedIn, SocialLink, Wrapper } from './Menu.sc'
 import Switch from '../Lottie/Switch';
 
+
 const Menu = () => (
-  <Container>
-    <Link>Projects</Link>
-    <Link>Resume</Link>
+  <Container name="landing">
+    <Link to="projects" smooth={true} offset={-40}>
+      <Text>Projects</Text>
+    </Link>
+    <Text as="a" href="#">Resume</Text>
     <Wrapper>
       <SocialLink href="https://github.com/hieu-lai" target="_blank">
         <Github />

@@ -29,4 +29,5 @@ export const ModButton = styled(Button)`
   margin: 0 auto;
   position: absolute;
   right: 0;
+  width: 28rem;
 ` 

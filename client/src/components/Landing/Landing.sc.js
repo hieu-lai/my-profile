@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Element } from 'react-scroll'
 import OnTheOffice from '../../icons/OnTheOffice'
 
-export const Container = styled.div`
+export const Container = styled(Element)`
   background: ${props => props.theme.landingBackground};
   height: 85vh;
   padding: 8.1rem 0 0 0;

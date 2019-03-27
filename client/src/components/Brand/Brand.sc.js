@@ -1,8 +1,10 @@
 import styled from 'styled-components'
+import { Link } from 'react-scroll'
 import LaptopIcon from '../../icons/Laptop'
 
-export const Container = styled.div`
+export const Container = styled(Link)`
   align-items: center;
+  cursor: pointer;
   display: flex;
 `
 
