@@ -11,7 +11,7 @@ const YourMove = () => (
       Sign up and become one of the millions of people around the 
       world using Trello to get more done.
     </Subtitle>
-    <ModButton>Hire me!</ModButton>
+    <ModButton as="a" href="mailto:hieuqlai@gmail.com">Hire me!</ModButton>
     <OnThePhone />
   </ContentContainer>
 )

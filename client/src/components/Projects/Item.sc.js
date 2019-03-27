@@ -7,7 +7,7 @@ export const Container = styled.div`
   column-gap: 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: ${props => props.index === 0 ? '10rem' : '15rem'} 0 0 0;
+  margin: ${props => props.index === 0 ? '7rem' : '15rem'} 0 0 0;
   &:nth-child(even) {
     direction: rtl;
     justify-items: start;
@@ -30,6 +30,7 @@ export const Name = styled(Title)`
 `
 
 export const Text = styled(Subtitle)`
+  direction: ltr;
   text-align: left;
   width: unset;
 `

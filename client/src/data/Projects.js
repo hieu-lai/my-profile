@@ -1,31 +1,38 @@
 const projects = [{
-  title: 'EQUAL Wallet',
-  description: 'Bootstrap was implemented for the convenience and quick development of this site. My Portfolio is reponsive and mobile friendly.',
+  title: 'EQUAL Network',
+  description: 'Built the companys website, Dapp store and wallet; a cryptocurrency wallet that enables you to send, store and receive any of the 600+ ERC20 tokens.',
   imageUrl: '/images/equal-wallet.png',
-  techStack: ['React', 'JavaScript', 'Redux', 'CSS3', 'Yarn'],
+  techStack: ['JavaScript', 'React', 'NodeJs', 'CSS3', 'webpack', 'npm'],
   codeUrl: '',
-  siteUrl: 'https://cookscheatcards.herokuapp.com/'
+  siteUrl: 'https://equal.tech'
 }, {
   title: 'Cook\'s Cheat Cards',
-  description: 'Bootstrap was implemented for the convenience and quick development of this site. I’ve added a bit of JavaScript for animation and user interaction (pretty much just the nav bar).',
+  description: 'An app that stores your favourite recipes. You can create, edit or view recipes by logging into a social media account or email/password.',
   imageUrl: '/images/cookscheatcards.png',
-  techStack: ['React', 'JavaScript', 'Redux', 'CSS3', 'Yarn'],
+  techStack: ['JavaScript', 'React', 'Redux', 'CSS3', 'Firebase'],
   codeUrl: 'https://github.com/hieu-lai/cookingcheatcards',
   siteUrl: 'https://cookscheatcards.herokuapp.com/'
 }, {
   title: 'CryptoDeals',
-  description: 'Bootstrap was implemented for the convenience and quick development of this site. I’ve added a bit of JavaScript for animation and user interaction (pretty much just the nav bar).Thoroughly tested with Chrome developer tools, My Portfolio is reponsive and mobile friendly.',
+  description: 'Website that displays deals around Australia, when paying by cryptocurrencies. Firebase and Zomato API were utilised to handle the fetching of data.',
   imageUrl: '/images/cryptodeals.png',
-  techStack: ['React', 'JavaScript', 'Redux', 'CSS3', 'Yarn'],
+  techStack: ['JavaScript', 'React', 'Redux', 'CSS3', 'Firebase'],
   codeUrl: 'https://github.com/hieu-lai/cryptodeals-app',
   siteUrl: 'https://crypto-deals.herokuapp.com/'
 }, {
   title: 'Simon',
-  description: 'Bootstrap was implemented for the convenience and quick development of this site. I’ve added a bit of JavaScript for animation and user interaction (pretty much just the nav bar).Thoroughly tested with Chrome developer tools, My Portfolio is reponsive and mobile friendly.',
+  description: 'Simon is an electronic game of memory skill. JavaScript was utilised to program the computer to randomly compute the next colour in the sequence.',
   imageUrl: '/images/simon.png',
-  techStack: ['React', 'JavaScript', 'Redux', 'CSS3', 'Yarn'],
+  techStack: ['JavaScript', 'jQuery', 'CSS3', 'HTML'],
   codeUrl: 'https://codepen.io/feedyouraddiction/pen/YadQZK',
   siteUrl: 'https://codepen.io/feedyouraddiction/full/YadQZK'
+}, {
+  title: 'Tic Tac Toe',
+  description: 'Tried to implement my own algorithm for the AI, however it did not go as planned. A minimax algorithm was instead adopted.',
+  imageUrl: '/images/tictactoe.png',
+  techStack: ['JavaScript', 'jQuery', 'CSS3', 'HTML'],
+  codeUrl: 'https://codepen.io/feedyouraddiction/pen/eMyvop',
+  siteUrl: 'https://codepen.io/feedyouraddiction/full/eMyvop'
 }]
 
 export default projects

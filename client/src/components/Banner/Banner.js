@@ -15,7 +15,7 @@ const Banner = () => (
         <Image src="/cusi-logo.png"  alt="cusi-logo" />
         <Title small>Your company here</Title>
       </Companies>
-      <ModButton>Its go time!</ModButton>
+      <ModButton as="a" href="mailto:hieuqlai@gmail.com">It's go time!</ModButton>
     </Container>
   </ContentContainer>
 )

@@ -10,6 +10,7 @@ export const Button = styled.div`
   font-weight: 500;
   padding: 1rem 2rem;
   text-align: center;
+  text-decoration: none;
   transition: all .4s;
   width: 25rem;
 
