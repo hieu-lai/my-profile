@@ -23,7 +23,7 @@ export const OnThePhone = styled(OnThePhoneIcon)`
 
 export const ModButton = styled(Button)`
   background: ${props => props.theme.blue}; 
-  bottom: -2rem;
+  bottom: -2.5rem;
   box-shadow: -2px 3px 1px 1px #274acc;
   left: 0;
   margin: 0 auto;
@@ -31,3 +31,9 @@ export const ModButton = styled(Button)`
   right: 0;
   width: 28rem;
 ` 
+
+export const DogWrapper = styled.div`
+  position: absolute;
+  right: 14rem;
+  top: 5rem;
+`
