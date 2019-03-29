@@ -9,7 +9,7 @@ const Menu = () => (
     <Link to="projects" smooth={true} offset={-40}>
       <Text>Projects</Text>
     </Link>
-    <Text as="a" href="#">Resume</Text>
+    <Text as="a" href="/files/Hieu Lai Resume.pdf" target="_blank">Resume</Text>
     <Wrapper>
       <SocialLink href="https://github.com/hieu-lai" target="_blank">
         <Github />
@@ -19,7 +19,7 @@ const Menu = () => (
         <LinkedIn />
       </SocialLink>   
       <Switch /> 
-    </Wrapper>
+    </Wrapper> 
   </Container>
 )
 

@@ -4,13 +4,11 @@ const aboutData = [{
   icon: ''
 }, {
   title: 'Team Player',
-  subtitle: 'sefe' ,
-  // subtitle: 'I work autonomously but within a fast-paced collborative environment.  ',
+  subtitle: 'I provide support and advice where I can, because I work smarter and better with a strong team.',
   icon: ''
 }, {
   title: 'Always Learning',
   subtitle: 'Just like my niece, I\'m fascinated by new shiny things. I keep myself updated on the latest tech developments and trends.',
-  // subtitle: 'No matter what I do I\'m always learning. New tech is always coming out, faster than I can handle. This means I will never get bored.',
   icon: ''
 }]
 
