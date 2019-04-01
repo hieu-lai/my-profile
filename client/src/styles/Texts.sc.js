@@ -21,7 +21,7 @@ export const Subtitle = styled.p`
   margin: 0 auto;
   text-align: center;
   /* ${props => !props.small && 'width: 20rem'}; */
-  ${props => props.smallWidth && 'width: 56rem'};
+  /* ${props => props.smallWidth && 'width: 56rem'}; */
 
   ${media.desktop`
     font-size: ${props => props.small ? '1.5rem' : '1.8rem'};

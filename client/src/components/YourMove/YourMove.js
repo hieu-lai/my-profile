@@ -17,4 +17,4 @@ const YourMove = () => (
   </ContentContainer>
 )
 
-export default YourMove 
+export default YourMove  
