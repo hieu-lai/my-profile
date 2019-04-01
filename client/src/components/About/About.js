@@ -6,7 +6,7 @@ import aboutData from '../../data/About'
 import Item from './Item'
 
 const About = () => (
-  <ContentContainer padding>
+  <ContentContainer padding> 
     <Container>
       <Title>Huge benefits to modern teams</Title>
       <Subtitle>

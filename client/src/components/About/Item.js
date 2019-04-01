@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, ProblemSolver, TeamPlayer, Learner } from './Item.sc'
-import { Title, Subtitle } from '../../styles/Texts.sc'
+import { Title, Subtitle } from '../../styles/Texts.sc' 
 
 const Item = ({ title, subtitle, index }) => {
   let image

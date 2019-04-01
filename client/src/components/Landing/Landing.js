@@ -7,7 +7,7 @@ const Landing = () => (
   <Container name="landing">
     <ContentContainer>
       <Grid>
-        <Content>
+        <Content alignLeft>
           <Title>Hi there, I'm Hieu!</Title>
           <Text>
             A Front End Developer with a passion for building <span>beautiful</span>,
