@@ -5,7 +5,7 @@ import { Title, Subtitle } from '../../styles/Texts.sc';
 import projects from '../../data/Projects'
 import Item from './Item';
 
-const Projects = () => (
+const Projects = () => ( 
   <Element name="projects">
     <ContentContainer padding>
       <Title>Amazing things I've worked on</Title>

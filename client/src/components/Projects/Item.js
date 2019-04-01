@@ -12,7 +12,6 @@ const Item = ({ title, description, imageUrl, techStack, siteUrl, codeUrl, index
           {siteUrl && <Link margin href={siteUrl} target="_blank"><ExternalLink /></Link>}
         </Wrapper>
       </Header>
-      
       <Text>{description}</Text>
       <TechStack>
         {techStack.map((tech, index) => <Tech key={index}>{tech}</Tech>)}
