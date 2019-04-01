@@ -9,14 +9,20 @@ export const Container = styled.div`
   transition: all 1s;
   z-index: 1;
 
+  ${props => !props.isTop && `
+      background: ${props.theme.headerBackground};
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      // padding: 1rem 0;
+  `};
+
   ${media.desktop`
     padding: 2rem 0;
 
     ${props => !props.isTop && `
-    background: ${props.theme.headerBackground};
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    padding: 1rem 0;
-  `};
+      background: ${props.theme.headerBackground};
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      padding: 1rem 0;
+    `};
 
   `}
 `
