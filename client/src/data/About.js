@@ -1,14 +1,15 @@
 const aboutData = [{
   title: 'Problem Solver',
-  subtitle: 'Sometimes I\'m so focused on a problem that I forget to eat. That how dedicated I am when trying to find the best solution.',
+  subtitle: 'I enjoy the feeling of solving a problem and hope to spread that accomplishment with whoever I work with.',
+  // subtitle: 'Sometimes I\'m so focused on a problem that I forget to eat. That how dedicated I am when trying to find the best solution.',
   icon: ''
 }, {
   title: 'Team Player',
-  subtitle: 'I provide support and advice where I can, because I work smarter and better with a strong team.',
+  subtitle: 'I provide support and advice where I can, because I work smarter and better with a stronger team.',
   icon: ''
 }, {
   title: 'Always Learning',
-  subtitle: 'Just like my niece, I\'m fascinated by new shiny things. I keep myself updated on the latest tech developments and trends.',
+  subtitle: 'I keep myself updated on the latest technology developments and trends. You could be sure our tech will not fall behind.',
   icon: ''
 }]
 
