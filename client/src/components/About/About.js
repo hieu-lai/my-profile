@@ -11,14 +11,14 @@ const About = () => (
       <Title>Huge benefits to modern teams</Title>
       <Subtitle>
         I'm organised and resourceful yet flexible and fun.
-        I'm up for any challenges, be it trivial or critical, I'll place
-        all my energy in completing the task. 
+        I'm up for any challenges, be it outside my tech stack, I'll complete it 
+        to the best of my abilities.
       </Subtitle>
       <Grid>
         {aboutData.map((item, index) => <Item key={index} index={index} {...item} />)}
       </Grid>
     </Container>
-  </ContentContainer>
+  </ContentContainer> 
 )
 
 export default About

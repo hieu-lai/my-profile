@@ -1,6 +1,6 @@
 const projects = [{
   title: 'EQUAL Network',
-  description: 'Built the companys website, Dapp store and wallet; a cryptocurrency wallet that enables you to send, store and receive any of the 600+ ERC20 tokens.',
+  description: 'Built the company\'s website, Dapp store and wallet; a cryptocurrency wallet that enables you to send, store and receive any of the 600+ ERC20 tokens.',
   imageUrl: '/images/equal-wallet.png',
   techStack: ['JavaScript', 'React', 'NodeJs', 'CSS3', 'webpack', 'npm'],
   codeUrl: '',
@@ -28,7 +28,7 @@ const projects = [{
   siteUrl: 'https://codepen.io/feedyouraddiction/full/YadQZK'
 }, {
   title: 'Tic Tac Toe',
-  description: 'Tried to implement my own algorithm for the AI, however it did not go as planned. A minimax algorithm was instead adopted.',
+  description: 'A minmax algorithm was implemented for the AI. Try your luck beating it. Don\'t feel so bad if you can\'t win.',
   imageUrl: '/images/tictactoe.png',
   techStack: ['JavaScript', 'jQuery', 'CSS3', 'HTML'],
   codeUrl: 'https://codepen.io/feedyouraddiction/pen/eMyvop',
