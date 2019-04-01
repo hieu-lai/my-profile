@@ -16,7 +16,10 @@ const lightTheme = {
 
   // Fonts
   headingFont: '\'Roboto\', sans-serif',
-  textFont: '\'Open Sans\', sans-serif'
+  textFont: '\'Open Sans\', sans-serif',
+
+  // Breakpoints
+  desktopBreakpoint: '668px'
 }
 
 const darkTheme = {
@@ -37,7 +40,10 @@ const darkTheme = {
   
     // Fonts
     headingFont: '\'Roboto\', sans-serif',
-    textFont: '\'Open Sans\', sans-serif'
+    textFont: '\'Open Sans\', sans-serif',
+
+    // Breakpoints
+    desktopBreakpoint: '668px'
 }
 
 export { lightTheme, darkTheme }

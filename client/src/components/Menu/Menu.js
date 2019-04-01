@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import { Container, Link as Text, Github, LinkedIn, SocialLink, Wrapper } from './Menu.sc'
 import Switch from '../Lottie/Switch';
+import { Lottie } from '../Lottie/Shared.sc';
 
 
 const Menu = () => (
@@ -19,7 +20,8 @@ const Menu = () => (
         <LinkedIn />
       </SocialLink>   
       <Switch /> 
-    </Wrapper> 
+      {/* <Lottie /> */}
+    </Wrapper>  
   </Container>
 )
 

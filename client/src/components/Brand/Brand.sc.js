@@ -10,18 +10,31 @@ export const Container = styled(Link)`
 
 export const Image = styled.img`
   height: 3.5rem;
+
+  @media screen and (min-width: ${props => props.theme.desktopBreakpoint}) {
+    height: 2rem;
+  }
 `
 
 export const Text = styled.h1`
   color: #fff;
   font-family: ${props => props.theme.headingFont};
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: 800;
   margin: 0 0 0 1rem;
+
+  @media screen and (min-width: ${props => props.theme.desktopBreakpoint}) {
+    font-size: 3rem;
+  }
 `
 
 export const Laptop = styled(LaptopIcon)`
   fill: #fff;
-  height: 4rem;
-  width: 4rem;
+  height: 2rem;
+  width: 2rem;
+
+  @media screen and (min-width: ${props => props.theme.desktopBreakpoint}) {
+    height: 4rem;
+    width: 4rem;
+  }
 `

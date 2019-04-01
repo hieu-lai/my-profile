@@ -2,7 +2,7 @@ import React from 'react'
 import Lottie from 'react-lottie'
 import * as animationData from '../../lottie/dog.json'
 
-const Dog = () => {
+const Dog = ({ className }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true, 

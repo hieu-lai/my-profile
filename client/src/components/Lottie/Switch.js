@@ -5,7 +5,7 @@ import { LottieWrapper, Clickable } from './Shared.sc.js'
 import { SiteContext } from '../MyProvider/SiteProvider.js';
 
 const Switch = () => {
-  const { isDarkMode, setState } = useContext(SiteContext)
+  const { isDarkMode, setState } = useContext(SiteContext) 
   const [isActive, setIsActive] = useState(false)
   const lottieRef = useRef(null)
 
@@ -69,8 +69,8 @@ const Switch = () => {
       <Lottie 
         ref={lottieRef}
         options={defaultOptions}
-        height={45}
-        width={70}
+        // height={100}
+        // width={100}
         isClickToPauseDisabled={true}
         eventListeners={eventListeners}
       />

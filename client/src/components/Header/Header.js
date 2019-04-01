@@ -11,7 +11,7 @@ const Header = () => {
     if (window.scrollY === 0) {
       setIsTop(true)
     } else {
-      setIsTop(false)
+      setIsTop(false) 
     }
   }, [])
 
