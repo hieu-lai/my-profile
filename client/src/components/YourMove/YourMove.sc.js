@@ -46,6 +46,8 @@ export const DogWrapper = styled.div`
   top: 12rem;
 
   ${media.desktop`
-    right: 14rem;
+    left: unset;
+    right: 20rem;
+    top: 5rem;
   `}
 `

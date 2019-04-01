@@ -9,7 +9,7 @@ const aboutData = [{
   icon: ''
 }, {
   title: 'Always Learning',
-  subtitle: 'I keep myself updated on the latest technology developments and trends. You could be sure our tech will not fall behind.',
+  subtitle: 'I keep myself updated on the latest technology developments and trends. Be sure our tech will not fall behind.',
   icon: ''
 }]
 
