@@ -1,6 +1,6 @@
 const aboutData = [{
   title: 'Problem Solver',
-  subtitle: 'I enjoy problem solving and developing code that will add value to whoever I work with.',
+  subtitle: 'I enjoy problem solving, especially complex ones, because they are most rewarding.',
   // subtitle: 'Sometimes I\'m so focused on a problem that I forget to eat. That how dedicated I am when trying to find the best solution.',
   icon: ''
 }, {

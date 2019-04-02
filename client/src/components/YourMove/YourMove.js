@@ -13,7 +13,7 @@ const YourMove = () => (
       available through LinkedIn, just message me  
       <span role="img" aria-label="Smiley Face"> 😊</span>. 
     </Subtitle>
-    <ModButton as="a" href="mailto:hieuqlai@gmail.com">Hire me!</ModButton>
+    <ModButton as="a" href="mailto:hieuqlai@gmail.com">Lets talk!</ModButton>
   </ContentContainer>
 )
 
