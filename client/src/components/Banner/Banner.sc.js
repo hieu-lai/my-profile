@@ -60,6 +60,7 @@ export const Image = styled.img`
 
   ${media.desktop`
     height: ${props => props.small ? '4rem' : '13rem'};
+    width: unset;
   `}
 `
 
